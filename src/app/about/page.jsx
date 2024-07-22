@@ -33,6 +33,7 @@ function aboutPage() {
         looking for ways to improve and enhance the user experience on our
         website. Happy browsing!
       </p>
+  
     </div>
   )
 }
