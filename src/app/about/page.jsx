@@ -2,15 +2,15 @@ import React from 'react'
 
 function aboutPage() {
   return (
-    <div className="max-w-6xl mx-auto p-3 space-y-4">
+    <div className="max-w-6xl mx-auto p-3 mt-9 space-y-4">
         <h1 className="text-2xl font-medium text-amber-600">About</h1>
-        <p>
+        <p className="text-lg">
         Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
         all your movie-related needs.
       </p>
 
-      <p>
+      <p className="text-lg">
         Our website is designed to provide you with a comprehensive database of
         movies from all around the world, along with the latest news, reviews,
         and trailers. Our movie database is constantly updated with new
@@ -20,7 +20,7 @@ function aboutPage() {
         for any occasion.
       </p>
 
-      <p>
+      <p className="text-lg">
         In addition to our extensive movie database, we also offer a platform
         for movie lovers to connect and share their thoughts on the latest
         releases. Our community section includes a forum where you can discuss

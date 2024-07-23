@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link';
-import { FiThumbsUp } from 'react-icons/fi';
+import { LiaImdb } from "react-icons/lia";
 import LazyLoad from 'react-lazy-load';
 
 export default function Card({ result }) {
@@ -28,8 +28,8 @@ export default function Card({ result }) {
             {result.release_date || result.first_air_date}
 
             <div className="flex gap-2 items-center">
-            <FiThumbsUp className='h-5 ml-3' />
-            {result.vote_count}
+            <LiaImdb  className='h-5 w-7 ml-3 bg-amber-600 rounded-md' />
+            {result.vote_average.toFixed(1)}
             </div>
             
           </div>
